@@ -34,7 +34,7 @@ echo Added $ip to file'> /scripts/add_ip.sh
 
 # Script to clear add.txt
 sudo touch /scripts/reset_ip.sh
-sudo chmod 777 /scripts/reset_ip.sh
+sudo chmod 777 /scripts/reset_ip.sh 
 echo '
 #!/bin/sh
 sudo rm /scripts/add.txt
