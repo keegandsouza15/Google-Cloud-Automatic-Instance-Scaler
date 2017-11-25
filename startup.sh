@@ -9,3 +9,4 @@ sudo pip install paramiko
 echo "export GOOGLE_APPLICATION_CREDENTIALS=~/apikey.json" > ~/.bash_profile
 bash
 
+ 
