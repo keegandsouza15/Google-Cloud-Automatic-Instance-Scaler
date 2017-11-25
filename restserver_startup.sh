@@ -10,7 +10,7 @@ sudo chmod 777 /opt/restserver.py
 echo '
 """
 Simple REST API that calculates fibonacci numbers and keeps a counter
-of the number of requests received
+of the number of requests received 
 """
 
 import json
