@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import json
-import wait_to_complete
+import wait_to_complete 
 
 # Creates a restserver and puts a startup script conatining the fibonacci file into the new server.
 def create_restserver (compute, project_id, zone, name):
