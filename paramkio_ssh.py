@@ -1,6 +1,6 @@
 # File for handling ssh connections
 def ssh_command(command, hostname):
-	import paramiko	
+	import paramiko	 
 	aclient = paramiko.SSHClient()
 	try:
 		aclient.load_system_host_keys() #Loads ssh keys
